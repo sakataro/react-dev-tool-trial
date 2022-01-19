@@ -24,7 +24,7 @@ function App(): JSX.Element {
     ]);
     setName('');
   };
-  const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e);
   };
   const [somethings, setSomethings] = useState(createDefaultSomethings());
